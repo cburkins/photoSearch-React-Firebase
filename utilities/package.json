@@ -1,0 +1,15 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload_file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.4.1",
+    "firebase-admin": "^9.6.0"
+  }
+}

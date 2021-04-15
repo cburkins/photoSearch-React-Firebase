@@ -56,3 +56,23 @@ Added the following:
     ![image](https://user-images.githubusercontent.com/9342308/114709767-fb7d9300-9cfa-11eb-82f8-ff3f2853e594.png)
 
 1. Navigate browswer to the advertised URL
+
+# Deployement (All)
+
+1. Navigate to http://console.firebase.google.com
+1. Create new project
+1.
+1. Initialize Firebase: `firebase init`
+    - Select Firestore, Database, and Storage
+    - New Project
+    - Click on "&gt;/&lt;" button to create a new "Web" app
+    - Add hosting
+1. Open your project, click on webapp, click on "Config", grab this section
+
+    - Copy this section to `src/firebase.js`
+
+    ![image](https://user-images.githubusercontent.com/9342308/114792592-a8d1c480-9d56-11eb-8cd7-54dc0e6341fb.png)
+
+1. In Firebase Console on left nav, click on "Authentication", enable "Email/Passwords" provider
+1. In Firebase Console on left nav, click on "Firestore", and create database
+    - Create collection called "users"

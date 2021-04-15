@@ -18,7 +18,7 @@ const useUserRoleByUID = (UID, email) => {
                 .then((doc) => {
                     if (doc.exists) {
                         console.log("   User already has role doc:", doc.data());
-                        setUserRole(doc);
+                        setUserRole(doc.data());
                     } else {
                         // doc.data() will be undefined in this case
                         console.log(`   No such document for UID=${UID}`);

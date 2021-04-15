@@ -24,3 +24,9 @@ yarn-error.log*
 
 # firebase
 /.firebase
+
+# utilities
+/utilities/node_modules
+/utilities/conf
+/utilities/images
+
