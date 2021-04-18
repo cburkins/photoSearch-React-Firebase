@@ -15,5 +15,11 @@
         "titleBar.inactiveBackground": "#c3a83399",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#c3a833"
+    "peacock.color": "#c3a833",
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
